@@ -1,0 +1,33 @@
+{
+  "name": "@sensible-contract/sdk-core",
+  "version": "0.1.5",
+  "description": "This code is shared across Sensible Contract TypeScript SDKs.",
+  "repository": "https://github.com/sensible-contract/sdk-core",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": "sensiblecontract.org",
+  "license": "MIT",
+  "dependencies": {
+    "@sensible-contract/bsv": "^0.1.1",
+    "@sensible-contract/satotx-api": "^0.1.0",
+    "minimist": "^1.2.5",
+    "scryptlib": "^0.4.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "merge2": "^1.4.1"
+  }
+}
